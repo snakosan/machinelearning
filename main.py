@@ -28,13 +28,18 @@ class Agent():
         return np.reshape(self.reduced_im, (1,self.reduced_im.size))
 
     def forward(self):
-        return 0
+        
         
     def plot(self):
         plt.imshow(self.reduced_im)
 
-    def rmse(self, reference_image):
-        pass
+
+class Classifier():
+    def __init__(self):
+        pass 
+
+    def fit(x):
+        pass 
 
 
 def main():
